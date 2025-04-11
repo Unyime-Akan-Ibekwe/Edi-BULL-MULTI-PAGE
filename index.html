@@ -1,0 +1,71 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fictional Business</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="icon.png" alt="Icon" width="40" height="40">
+        <h1> Edi-Bull </h1>
+        <span class="menu-toggle">☰</span>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Welcome to Edi-Bull</h2>
+        <p>At Edi-Bull, we bring you a delightful selection of snacks and drinks, making every bite and sip an experience to savor.</p>
+        <br>
+        <p>From crispy chips to refreshing beverages, our online marketplace offers a variety of high-quality treats at great prices. 
+        Enjoy convenience, flavor, and top-notch service all in one place!</p>
+        <a href="services.html" class="btn">View Services</a>
+    </section>
+    <section class="products">
+        <div class="product">
+            <img src="sandwich.jpg" alt="Product 1" width="280" height="192">
+            <h3> Leafy Sandwich </h3>
+            <p>$15</p>
+            <button class="btn">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="sardines.jpg" alt="Product 2" width="280" height="192">
+            <h3>Can of Sardine (Normal)</h3>
+            <p>$5</p>
+            <button class="btn">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="ice-tea.jpg" alt="Product 3" width="280" height="192">
+            <h3>Orange Ice Tea</h3>
+            <p>$18</p>
+            <button class="btn">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="ramen.jpg" alt="Product 4" width="280" height="192">
+            <h3> Spicy Ramen (Chilli Pepper)</h3>
+            <p>$23</p>
+            <button class="btn">Add to Cart</button>
+        </div>
+    </section>
+    <section class="cart">
+        <h3>Shopping Cart</h3>
+        <p>No items in cart</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Edi-Bull Business. All rights reserved.</p>
+    </footer>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
