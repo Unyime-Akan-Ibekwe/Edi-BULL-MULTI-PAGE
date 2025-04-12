@@ -1,8 +1,7 @@
 🛒 Edi-Bull — E-commerce Webpage for Snacks, Fast Meals & Drinks
 
 Welcome to Edi-Bull!
-Edi-Bull is a design-focused e-commerce web project that showcases a clean, modern interface for an online store selling snacks, 
-fast meals, and drinks. This project is created as an example of a responsive, user-friendly e-commerce experience.
+Edi-Bull is a design-focused e-commerce web project that showcases a clean, modern interface for an online store selling snacks, fast meals, and drinks. This project is created as an example of a responsive, user-friendly e-commerce experience.
 
 Project Objectives:
 1) The goal of this project is to design and build a visually appealing, functional e-commerce webpage that demonstrates:
@@ -18,9 +17,6 @@ Technologies Used:
 HTML5: To structure of the webpage
 
 CSS: For styling and creating the layout
-
-JavaScript: Interactivity and dynamic features
-
 
 Features:
 Product Catalog: Snacks, fast meals, and drinks, all displayed with images, prices, and details.
